@@ -42,10 +42,12 @@ namespace ContactsApp.Controllers
         }
 
         // This method is used to access current partition
-        // in Rhoconnect notification callbacks
+        // in Rhoconnect notification callbacks	
         private String partition()
         {
-            // return the proper partitioning - actual username or 'app'
+			// If you're using 'app' partition
+			// uncomment the following line
+			// return "app";
             return "testuser";
         }
 

@@ -16,3 +16,5 @@ Using the in-memory database means there is no need to setup and run a separate 
 To run this application, build it in Visual Studio, create a deployment package (using Project --> Build Deployment Package).
 Then, deploy it on the Microsoft's IIS server to run.
 
+Additionally, this repo contains ContactsApp_final project, which has all the completed code that is necessary for integration with Rhoconnect. You can just use the it (you will still need to modify the `set_app_point` with your app endpoints and add the RhoconnectNET library reference to your project.)
+
